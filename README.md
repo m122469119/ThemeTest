@@ -53,13 +53,13 @@ values目录
     <item name="android:taskCloseExitAnimation">@anim/anim_right_out</item>
 </style>
 ```
-如果启动的activity运行在原来的task中,那么使用animation activityOpenEnterAnimation/activityOpenExitAnimation;
+如果启动的activity运行在原来的task中,那么使用 activityOpenEnterAnimation/activityOpenExitAnimation;
 
-如果结束的activity结束之后原来的task还存在,那么使用activityCloseEnterAnimation/activityCloseExitAnimatio;
+如果结束的activity结束之后原来的task还存在,那么使用 activityCloseEnterAnimation/activityCloseExitAnimatio;
 
-如果启动的activity运行在新的task中,那么使用animation taskOpenEnterAnimation/taskOpenExitAnimation;
+如果启动的activity运行在新的task中,那么使用 taskOpenEnterAnimation/taskOpenExitAnimation;
 
-如果结束的activity结束之后原来的task将不存在,那么使用taskCloseEnterAnimation/taskCloseExitAnimation;
+如果结束的activity结束之后原来的task将不存在,那么使用 taskCloseEnterAnimation/taskCloseExitAnimation;
 
 |属性| 效果|
 | -----   | -----  | 
