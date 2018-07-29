@@ -53,12 +53,9 @@ values目录
     <item name="android:taskCloseExitAnimation">@anim/anim_right_out</item>
 </style>
 ```
-如果启动的activity运行在原来的task中,那么使用 activityOpenEnterAnimation/activityOpenExitAnimation;
-
-如果结束的activity结束之后原来的task还存在,那么使用 activityCloseEnterAnimation/activityCloseExitAnimatio;
-
-如果启动的activity运行在新的task中,那么使用 taskOpenEnterAnimation/taskOpenExitAnimation;
-
+如果启动的activity运行在原来的task中,那么使用 activityOpenEnterAnimation/activityOpenExitAnimation;</br>
+如果结束的activity结束之后原来的task还存在,那么使用 activityCloseEnterAnimation/activityCloseExitAnimatio;</br>
+如果启动的activity运行在新的task中,那么使用 taskOpenEnterAnimation/taskOpenExitAnimation;</br>
 如果结束的activity结束之后原来的task将不存在,那么使用 taskCloseEnterAnimation/taskCloseExitAnimation;
 
 |属性| 效果|
@@ -77,8 +74,9 @@ values目录
 
 
 2.overridePendingTransition(R.anim.slide_right_in, R.anim.slide_right_out);
-第一个参数:被打开的Activity的入场动画
+
+第一个参数:被打开的Activity的入场动画</br>
 第二个参数:此Activity的退场动画
 
-经测试(在splash和Main代码中打开注释)
+经测试(在splash和Main代码中打开注释)</br>
 一旦在代码中使用了该方法,那么xml设置的主题动画将会失效
