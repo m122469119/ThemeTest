@@ -39,7 +39,7 @@ values目录
 
 然后就是Activity切换动画主要两种形式
 
-1.布局设置
+####1.布局设置
 ```xml
 <style name="Animation.Activity.Common" parent="@android:style/Animation">
     <item name="android:activityOpenEnterAnimation">@anim/anim_right_in</item>
@@ -72,7 +72,7 @@ values目录
 此Activity所打开的Activity的关闭动画也由该Activity决定
 
 
-2.overridePendingTransition(R.anim.slide_right_in, R.anim.slide_right_out);
+####2.overridePendingTransition(R.anim.slide_right_in, R.anim.slide_right_out);
 
 第一个参数:被打开的Activity的入场动画</br>
 第二个参数:此Activity的退场动画
