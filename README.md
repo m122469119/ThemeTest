@@ -65,16 +65,14 @@ values目录
 |activityCloseEnterAnimation|被打开Activity关闭时,此Activity重新进入用户视野的入场动画|
 |activityCloseExitAnimation |被打开Activity关闭时的退场动画|
 
-经测试该形式的动画切换(具体看代码中Splash启动Main,再由Main关闭回到Splash)
-
-总结如下(对不同场景下Activity动画切换更改有帮助):
+经测试该形式的动画切换(具体看代码中Splash启动Main,再由Main关闭回到Splash)</br>
+总结如下(对不同场景下Activity动画切换更改有帮助):</br>
 
 此Activity被打开时的入场动画由该Activity决定
 此Activity所打开的Activity的关闭动画也由该Activity决定
 
 
 2.overridePendingTransition(R.anim.slide_right_in, R.anim.slide_right_out);
-
 第一个参数:被打开的Activity的入场动画</br>
 第二个参数:此Activity的退场动画
 
