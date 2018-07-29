@@ -74,3 +74,11 @@ values目录
 
 此Activity被打开时的入场动画由该Activity决定
 此Activity所打开的Activity的关闭动画也由该Activity决定
+
+
+2.overridePendingTransition(R.anim.slide_right_in, R.anim.slide_right_out);
+第一个参数:被打开的Activity的入场动画
+第二个参数:此Activity的退场动画
+
+经测试(在splash和Main代码中打开注释)
+一旦在代码中使用了该方法,那么xml设置的主题动画将会失效
