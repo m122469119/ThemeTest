@@ -55,11 +55,13 @@ values目录
 ```
 如果启动的activity运行在原来的task中，
 那么使用animation activityOpenEnterAnimation/activityOpenExitAnimation;
+
 如果结束的activity结束之后原来的task还存在，
 那么使用activityCloseEnterAnimation/activityCloseExitAnimatio;
 
 如果启动的activity运行在新的task中，
 那么使用animation taskOpenEnterAnimation/taskOpenExitAnimation;
+
 如果结束的activity结束之后原来的task将不存在，也即此activity为task最后的activity，
 那么使用taskCloseEnterAnimation/taskCloseExitAnimation;
 
@@ -71,6 +73,8 @@ values目录
 |activityCloseExitAnimation |被打开Activity关闭时的退场动画|
 
 经测试该形式的动画切换(具体看代码中Splash启动Main,再由Main关闭回到Splash)
+
 总结如下(对不同场景下Activity动画切换更改有帮助):
+
 此Activity被打开时的入场动画由该Activity决定
 此Activity所打开的Activity的关闭动画也由该Activity决定
