@@ -73,6 +73,7 @@ values目录
 
 
 2.overridePendingTransition(R.anim.slide_right_in, R.anim.slide_right_out);
+
 第一个参数:被打开的Activity的入场动画</br>
 第二个参数:此Activity的退场动画
 
