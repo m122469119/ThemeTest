@@ -1,5 +1,6 @@
 package com.mix.themetext.themetest;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                startActivity(new Intent(MainActivity.this, DetailActivity.class));
                 //overridePendingTransition(R.anim.anim_stay, R.anim.anim_right_out);
             }
         });

@@ -11,20 +11,24 @@
         android:supportsRtl="true">
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/App.Theme.Splash"
-        >
+            android:theme="@style/App.Theme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
-            android:theme="@style/App.Theme.Main"
-        >
-
+            android:theme="@style/App.Theme.Main">
         </activity>
 
+        <activity
+            android:name=".DetailActivity"
+            android:theme="@style/App.Theme.Main"
+        >
+        </activity>
     </application>
 
 </manifest>
