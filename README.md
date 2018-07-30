@@ -61,7 +61,7 @@ values目录
 |属性| 效果|
 | -----   | -----  | 
 |activityOpenEnterAnimation |此Activity被打开时的入场动画|
-|activityOpenExitAnimation  |此Activity打开其它Activity的退场动画|
+|activityOpenExitAnimation  |打开此Activity的Activity的退场动画|
 |activityCloseEnterAnimation|被打开Activity关闭时,此Activity重新进入用户视野的入场动画|
 |activityCloseExitAnimation |被打开Activity关闭时的退场动画|
 
